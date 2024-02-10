@@ -14,3 +14,4 @@ lib/
 
 # Git
 .github/
+.gitmodules
