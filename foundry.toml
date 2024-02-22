@@ -2,5 +2,30 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = [
+    "@chainlink=lib/chainlink-brownie-contracts/",
+    "forge-std=lib/forge-std/src/",
+    "@solmate=lib/solmate/src/",
+    "foundry-devops/=lib/foundry-devops/src/",
+]
 
+
+# VSCODE CONFIG
+# {
+#     "terminal.integrated.defaultProfile.windows": "Git Bash",
+#     "redhat.telemetry.enabled": false,
+#     "workbench.colorTheme": "One Dark Pro",
+#     "github.copilot.enable": {
+#         "*": true,
+#         "plaintext": false,
+#         "markdown": false,
+#         "scminput": false
+#     },
+#     "solidity.telemetry": false,
+#     "[solidity]": {
+#         "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+#     },
+#     "editor.formatOnSave": true,
+#     "editor.mouseWheelZoom": true
+# }
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
